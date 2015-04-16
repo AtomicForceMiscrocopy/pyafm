@@ -50,7 +50,8 @@ class pyafm():
 
 
 if __name__ == '__main__':
-    test = pyafm(10000, ['motor', 'pid'])
+    test = pyafm(10000, ['motor','pid'])
+
     test.tstart()
     # test.test()
     test.waiting()
